@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+
+
+    <h1>Calculator</h1>
+
+    <div class="calculator">
+
+
+
+        <div class="inputs">
+            <input type="number" name="" id="first">
+            <br>
+            <input type="number" name="" id="second">
+        </div>
+
+        <div class="symbols">
+
+            <div class="basic">
+                <button id="addb" onclick="addition()">+</button>
+                <button id="subb" onclick="subtraction()"> - </button>
+                <button id="mulb" onclick="mutiplication()"> * </button>
+                <button id="divb" onclick="division()">/</button>
+            </div>
+
+            <div class="exponents">
+                <button id="squareb" onclick="square()">Square</button>
+                <button id="cubeb" onclick="cube()">Cube</button>
+            </div>
+
+            <div class="men">
+                <button id="perimeterb" onclick="perimeter()">perimeter</button>
+                <button id="areab" onclick="area()">area</button>
+            </div>
+
+        </div>
+        <br>
+
+
+
+
+        <h1 id="answer">result</h1>
+    </div>
+    <h3>Created by Baljot</h3>
+    <script>
+        let first = document.getElementById("first")
+        let second = document.getElementById("second")
+        let result = document.getElementById("answer")
+
+
+        function addition() {
+            let num1 = first.value
+            let num2 = second.value
+            num1 = parseInt(num1)
+            num2 = parseInt(num2)
+            let solution = num1 + num2
+            result.innerText = solution
+        }
+
+        function subtraction() {
+            let num1 = first.value
+            let num2 = second.value
+            let solution = num1 - num2
+            result.innerText = solution
+        }
+
+
+        function mutiplication() {
+            let num1 = first.value
+            let num2 = second.value
+            let solution = num1 * num2
+            result.innerText = solution
+        }
+
+        function division() {
+            let num1 = first.value
+            let num2 = second.value
+            let solution = num1 / num2
+            result.innerText = solution
+        }
+
+        function square() {
+            let num1 = first.value
+            let solution = num1 * num1
+            result.innerText = solution
+        }
+
+        function cube() {
+            let num1 = first.value
+            let solution = num1 * num1 * num1
+            result.innerText = solution
+        }
+
+        function perimeter() {
+            let num1 = first.value
+            let num2 = second.value
+            let calculation = num1 * 2
+            let calculation2 = num2 * 2
+            let solution = calculation + calculation2
+            result.innerText = solution
+        }
+
+        function area() {
+            let num1 = first.value
+            let num2 = second.value
+            solution = num1 * num2
+            result.innerText = solution
+        }
+        if (num1 < 0) {
+            document.write("Invalid Number")
+        }
+    </script>
+</body>
+
+</html

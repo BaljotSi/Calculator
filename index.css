@@ -1,0 +1,124 @@
+body {
+    background: linear-gradient(to right, blue, blueviolet, blue);
+}
+
+/* ------------------------------------------------------Web Page------------------------------------------------------ */
+
+h1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ------------------------------------------------------Heading------------------------------------------------------ */
+
+.calculator {
+    margin-top: 250px;
+    width: 25%;
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 10px;
+    background-color: yellow;
+    margin: auto;
+    height: 500px;
+}
+
+/* -----------------------------------------------------main purpose------------------------------------------------------ */
+
+.inputs {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.inputs input {
+    margin-top: 5px;
+    width: 90%;
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 5px;
+}
+
+/* -----------------------------------------------------inputs------------------------------------------------ */
+
+button {
+    padding: 5px;
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 10px;
+}
+
+.basic {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    background-color: yellowgreen;
+    margin: auto;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.basic button {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 20%;
+}
+
+
+.exponents {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    background-color: yellowgreen;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.exponents button {
+    width: 40%;
+}
+
+.men {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    background-color: yellowgreen;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.men button {
+    width: 40%;
+}
+
+button:hover {
+    background-color: rgb(176, 210, 245);
+    border-style: solid;
+    border-color: aquamarine;
+    border-radius: 10px;
+}
+
+/* ------------------------------------------------------Buttons------------------------------------------------------ */
+
+p {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ------------------------------------------------------Result------------------------------------------------------ */
+
+h3 {
+    width: 5%;
+    margin-top: 330px;
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 10px;
+}
+
+/* ------------------------------------------------------Creator------------------------------------------------------ */
