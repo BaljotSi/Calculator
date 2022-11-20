@@ -17,7 +17,6 @@ h1 {
 .cs{
     
     margin-top: 250px;
-    width: 25%;
     border-style: solid;
     border-color: aqua;
     border-radius: 10px;
@@ -27,8 +26,23 @@ h1 {
 .csh1{
     margin-top: 250px;
     margin-bottom: 250px;
+    text-align: center;
 }
 
+h3{
+    width: 50%;
+    text-align: center;
+}
+
+#age {
+    width: 90%;
+    background-color: yellowgreen;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 /* ------------------------------------------------------Heading------------------------------------------------------ */
 
@@ -120,6 +134,17 @@ button {
     width: 20%;
 }
 
+.clear {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    background-color: yellowgreen;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 .exponents {
     display: flex;

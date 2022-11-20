@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculators</title>
     <link rel="stylesheet" href="index.css">
 </head>
 
@@ -13,7 +13,7 @@
 
 
 
-    <h1>Calculator</h1>
+    <h1>Calculators</h1>
     <div class="bigbox">
         <div class="cs">
             <h1 class="csh1">Coming Soon</h1>
@@ -59,7 +59,15 @@
 
 
         <div class="cs">
-            <h1 class="csh1">Coming Soon</h1>
+            <h1>Age Calculator</h1>
+            <div class="csh1"> 
+                <p id="age"></p>
+                <br>
+                <h3>Click here to Calculate your age</h3>
+                <button onclick="agecal()">Year of Birth</button>
+            </div>
+               
+            
         </div>
     </div>
     <h3>Created by Baljot</h3>
@@ -101,6 +109,7 @@
         }
 
         function clearinputs() {
+            prompt()
             document.getElementById("first").value =    ""
             document.getElementById("second").value = ""
         }
@@ -134,6 +143,12 @@
         }
         if (num1 < 0) {
             document.write("Invalid Number")
+        }
+
+        function agecal(){
+           let year = prompt("What year where you born?")
+           let calculation = 2022 - year
+           document.getElementById("age").innerText = calculation
         }
     </script>
 </body>
