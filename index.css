@@ -4,10 +4,31 @@ body {
 
 /* ------------------------------------------------------Web Page------------------------------------------------------ */
 
+.bigbox{
+    display: flex;
+    flex: space around;
+}
+
 h1 {
     display: flex;
     justify-content: space-around;
 }
+
+.cs{
+    
+    margin-top: 250px;
+    width: 25%;
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 10px;
+    background-color: yellow;
+}
+
+.csh1{
+    margin-top: 250px;
+    margin-bottom: 250px;
+}
+
 
 /* ------------------------------------------------------Heading------------------------------------------------------ */
 
