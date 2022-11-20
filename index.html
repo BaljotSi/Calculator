@@ -37,14 +37,18 @@
                     <button id="divb" onclick="division()">/</button>
                 </div>
 
+                <div class="clear">
+                    <button onclick="clearinputs()">Clear</button>
+                </div>
+
                 <div class="exponents">
                     <button id="squareb" onclick="square()">Square</button>
                     <button id="cubeb" onclick="cube()">Cube</button>
                 </div>
 
                 <div class="men">
-                    <button id="perimeterb" onclick="perimeter()">perimeter</button>
-                    <button id="areab" onclick="area()">area</button>
+                    <button id="perimeterb" onclick="perimeter()">Perimeter</button>
+                    <button id="areab" onclick="area()">Area</button>
                 </div>
 
                 <h1 id="answer">result</h1>
@@ -94,6 +98,11 @@
             let num2 = second.value
             let solution = num1 / num2
             result.innerText = solution
+        }
+
+        function clearinputs() {
+            document.getElementById("first").value =    ""
+            document.getElementById("second").value = ""
         }
 
         function square() {
