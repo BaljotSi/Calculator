@@ -16,7 +16,17 @@
     <h1>Calculators</h1>
     <div class="bigbox">
         <div class="cs">
-            <h1 class="csh1">Coming Soon</h1>
+            <h1 class="cs--h1">BMI Calculator</h1>
+            <div class="cs--h1">
+                <p id="age"></p>
+                <br>
+                <input placeholder="Weight" type="number" name="" id="weight">
+                <br>
+                <input placeholder="Height" type="number" name="" id="height">
+                <h3>Click here to Calculate if you are healthy or not.</h3>
+                <button onclick="bmical()">BMI</button>
+
+            </div>
         </div>
         <div class="calculator">
 
@@ -59,15 +69,16 @@
 
 
         <div class="cs">
-            <h1>Age Calculator</h1>
-            <div class="csh1"> 
+            <h1 class="cs--h1">Age Calculator</h1>
+            <div class="cs--h1">
                 <p id="age"></p>
                 <br>
                 <h3>Click here to Calculate your age</h3>
                 <button onclick="agecal()">Year of Birth</button>
+
             </div>
-               
-            
+
+
         </div>
     </div>
     <h3>Created by Baljot</h3>
@@ -110,7 +121,7 @@
 
         function clearinputs() {
             prompt()
-            document.getElementById("first").value =    ""
+            document.getElementById("first").value = ""
             document.getElementById("second").value = ""
         }
 
@@ -145,10 +156,16 @@
             document.write("Invalid Number")
         }
 
-        function agecal(){
-           let year = prompt("What year where you born?")
-           let calculation = 2022 - year
-           document.getElementById("age").innerText = calculation
+        function agecal() {
+            let year = prompt("What year where you born?")
+            let calculation = 2022 - year
+            document.getElementById("age").innerText = calculation
+        }
+
+        function bmical() {
+            let weight = document.getElementById("weight").value
+            let height = document.getElementById("height").value
+            let calculation = weight / height * height
         }
     </script>
 </body>

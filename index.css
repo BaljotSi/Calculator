@@ -15,7 +15,7 @@ h1 {
 }
 
 .cs{
-    
+    width: 30%;
     margin-top: 250px;
     border-style: solid;
     border-color: aqua;
@@ -23,15 +23,8 @@ h1 {
     background-color: yellow;
 }
 
-.csh1{
-    margin-top: 250px;
-    margin-bottom: 250px;
-    text-align: center;
-}
-
-h3{
-    width: 50%;
-    text-align: center;
+.cs--h1 button{
+    background-color: aqua;
 }
 
 #age {
@@ -195,7 +188,7 @@ p {
 /* ------------------------------------------------------Result------------------------------------------------------ */
 
 h3 {
-    width: 5%;
+    width: 100%;
     margin-top: 330px;
     border-style: solid;
     border-color: aqua;
