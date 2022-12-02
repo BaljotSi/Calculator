@@ -103,6 +103,22 @@ h1 {
 
 /* -----------------------------------------------------inputs------------------------------------------------ */
 
+#weight{
+    margin: auto;
+    width: 90%;
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 5px;
+}
+
+#height{
+    margin: auto;
+    width: 90%;
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 5px;
+}
+
 button {
     padding: 5px;
     border-style: solid;
